@@ -195,17 +195,27 @@ log(xhr); */
 //     var x = 3;
 //     console.log(x);
 // }
-// log(x);
-window.onload = function() {
-    var u = document.createElement('p');
-    var y = document.createTextNode('jdjd');
-    u.appendChild(y);
-    var child = document.getElementById('jh');
-    child.removeChild();
+// // log(x);
+// window.onload = function() {
+//     var u = document.createElement('p');
+//     var y = document.createTextNode('jdjd');
+//     u.appendChild(y);
+//     var child = document.getElementById('jh');
+//     child.removeChild();
 
-    var element = document.getElementById('id1');
-    element.replaceChild(u, child);
-    log(child);
-};
+//     var element = document.getElementById('id1');
+//     element.replaceChild(u, child);
+//     log(child);
+// };
+// let obj = { name: 'khalid', company: 'home' };
+
+// let J = function(a, b, c) {
+//     console.log(this.name, a, b, c);
+// };
+
+// // J.call(obj, 3, 2, 4);
+// // J.apply(obj, [3, 4, 5]);
+// let bounc = J.bind(obj);
+// bounc(1, 2, 3);
 
 {}
